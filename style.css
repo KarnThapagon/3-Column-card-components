@@ -1,0 +1,351 @@
+@media screen and (max-width:375px){
+    *{
+        margin:0 auto;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        color: hsl(0, 0%, 95%);
+    }
+    .main{
+        width: 327px;
+        height: 1326px;
+        border-radius: 10px;
+        margin-top: 90px;
+        overflow: hidden;
+
+    }
+    article{
+        flex-direction: column;
+        display: flex;
+    }
+    h1{
+        font-family: 'Big Shoulders Display', cursive;
+        font-weight: 700;
+        color: hsl(0, 0%, 95%);
+    }
+    p{
+        font-family: 'Lexend Deca', sans-serif;
+        font-weight: 400;
+        color: hsla(0, 0%, 100%, 0.75);
+    }
+    .sedan{
+        width: 327px;
+        height: 440px;
+        padding:47px;
+        background-color: hsl(31, 77%, 52%);
+    }
+    .sedan h1{
+        padding-top:40px;
+        font-size: 33px;
+    }
+    .sedan .explanation{
+        margin-top: 40px;
+        height: 145px;
+        line-height: 1.6;
+        font-size: 15px;
+    }
+    .sedan footer{
+        width: 212px;
+        padding: 0;
+        padding-top: 0;
+    }
+    .sedan footer p{
+        color: hsl(31, 77%, 52%);
+        display: inline-block;
+        background-color: white;
+        border-radius: 40px;
+        width: 144px;
+        height: 50px;
+        text-align: center;
+        padding:15px;
+        /* border: 1px solid black; */
+    } 
+    .sedan footer p:hover{
+        color: hsl(0, 0%, 95%);
+        border: 2px solid  hsl(0, 0%, 95%);
+        background-color: hsl(31, 77%, 52%);
+        border-radius: 40px;
+        width: 144px;
+        height: 50px;
+        text-align: center;
+        padding:15px;
+        /* border: 1px solid black; */
+    } 
+    .suvs{
+        /* border: 1px solid tomato; */
+        width: 327px;
+        height: 440px;
+        padding:47px;
+        background-color: hsl(184, 100%, 22%);
+    }
+    .suvs h1{
+        padding-top:40px;
+        font-size: 33px;
+        /* background-color: aquamarine; */
+        /* margin: 46px; */
+    }
+    .suvs .explanation{
+        margin-top: 40px;
+        height: 145px;
+        line-height: 1.6;
+        font-size: 15px;
+        /* background-color: tomato; */
+    }
+    .suvs footer{
+        padding: 0;
+        padding-top: 0;
+        /* background-color: darkgoldenrod; */
+    }
+    .foot{
+        color: hsl(184, 100%, 22%);
+        background-color: white;
+        display: inline-block;
+        border-radius: 40px;
+        width: 144px;
+        height: 50px;
+        text-align: center;
+        padding:15px;
+        
+        
+    } 
+    .suvs footer p:hover{
+        color: hsl(0, 0%, 95%);
+        border: 2px solid  hsl(0, 0%, 95%);
+        background-color: hsl(184, 100%, 22%);
+        border-radius: 40px;
+        width: 144px;
+        height: 50px;
+        text-align: center;
+        padding:15px;
+        /* border: 1px solid black; */
+    } 
+    .luxury{
+        /* border: 1px solid tomato; */
+        width: 327px;
+        height: 440px;
+        padding:47px;
+        background-color: hsl(179, 100%, 13%);
+        overflow: hidden;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    .luxury h1{
+        padding-top:40px;
+        font-size: 33px;
+        /* background-color: aquamarine; */
+        /* margin: 46px; */
+    }
+    .luxury .explanation{
+        margin-top: 40px;
+        height: 145px;
+        line-height: 1.6;
+        font-size: 15px;
+        /* background-color: tomato; */
+    }
+    .luxury footer{
+        width: 212px;
+        padding: 0;
+        padding-top: 0;
+        /* background-color: darkgoldenrod; */
+    }
+    .luxury footer p{
+        color:  hsl(179, 100%, 13%);
+        display: inline-block;
+        background-color: white;
+        border-radius: 40px;
+        width: 144px;
+        height: 50px;
+        text-align: center;
+        padding:15px;
+        /* border: 1px solid black; */
+        
+    } 
+    .luxury footer p:hover{
+        color: hsl(0, 0%, 95%);
+        border: 2px solid  hsl(0, 0%, 95%);
+        background-color:  hsl(179, 100%, 13%);
+        border-radius: 40px;
+        width: 144px;
+        height: 50px;
+        text-align: center;
+        padding:15px;
+        
+        /* border: 1px solid black; */
+        
+    } 
+}
+@media screen and (min-width:376px) {
+    *{
+        margin:0 auto;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        color: hsl(0, 0%, 95%);
+    }
+    .main{
+        width: 919px;
+        height: 500px;
+        border-radius: 10px;
+        margin-top: 170px;
+        overflow: hidden;
+
+    }
+    article{
+        float:left;
+        display: flex;
+    }
+    h1{
+        font-family: 'Big Shoulders Display', cursive;
+        font-weight: 700;
+        color: hsl(0, 0%, 95%);
+    }
+    p{
+        font-family: 'Lexend Deca', sans-serif;
+        font-weight: 400;
+        color: hsla(0, 0%, 100%, 0.75);
+    }
+    .sedan{
+        width: 306px;
+        height: 500px;
+        padding:47px;
+        background-color: hsl(31, 77%, 52%);
+    }
+    .sedan h1{
+        padding-top:40px;
+        font-size: 33px;
+    }
+    .sedan .explanation{
+        margin-top: 40px;
+        height: 200px;
+        line-height: 1.6;
+        font-size: 15px;
+    }
+    .sedan footer{
+        width: 212px;
+        padding: 0;
+        padding-top: 0;
+    }
+    .sedan footer p{
+        color: hsl(31, 77%, 52%);
+        display: inline-block;
+        background-color: white;
+        border-radius: 40px;
+        width: 144px;
+        height: 50px;
+        text-align: center;
+        padding:15px;
+        /* border: 1px solid black; */
+    } 
+    .sedan footer p:hover{
+        color: hsl(0, 0%, 95%);
+        border: 2px solid  hsl(0, 0%, 95%);
+        background-color: hsl(31, 77%, 52%);
+        border-radius: 40px;
+        width: 144px;
+        height: 50px;
+        text-align: center;
+        padding:15px;
+        /* border: 1px solid black; */
+    } 
+    .suvs{
+        /* border: 1px solid tomato; */
+        width: 306px;
+        height: 500px;
+        padding:47px;
+        background-color: hsl(184, 100%, 22%);
+    }
+    .suvs h1{
+        padding-top:40px;
+        font-size: 33px;
+        /* background-color: aquamarine; */
+        /* margin: 46px; */
+    }
+    .suvs .explanation{
+        margin-top: 40px;
+        height: 200px;
+        line-height: 1.6;
+        font-size: 15px;
+        /* background-color: tomato; */
+    }
+    .suvs footer{
+        padding: 0;
+        padding-top: 0;
+        /* background-color: darkgoldenrod; */
+    }
+    .foot{
+        color: hsl(184, 100%, 22%);
+        background-color: white;
+        display: inline-block;
+        border-radius: 40px;
+        width: 144px;
+        height: 50px;
+        text-align: center;
+        padding:15px;
+        
+        
+    } 
+    .suvs footer p:hover{
+        color: hsl(0, 0%, 95%);
+        border: 2px solid  hsl(0, 0%, 95%);
+        background-color: hsl(184, 100%, 22%);
+        border-radius: 40px;
+        width: 144px;
+        height: 50px;
+        text-align: center;
+        padding:15px;
+        /* border: 1px solid black; */
+    } 
+    .luxury{
+        /* border: 1px solid tomato; */
+        width: 306px;
+        height: 500px;
+        padding:47px;
+        background-color: hsl(179, 100%, 13%);
+    }
+    .luxury h1{
+        padding-top:40px;
+        font-size: 33px;
+        /* background-color: aquamarine; */
+        /* margin: 46px; */
+    }
+    .luxury .explanation{
+        margin-top: 40px;
+        height: 200px;
+        line-height: 1.6;
+        font-size: 15px;
+        /* background-color: tomato; */
+    }
+    .luxury footer{
+        width: 212px;
+        padding: 0;
+        padding-top: 0;
+        /* background-color: darkgoldenrod; */
+    }
+    .luxury footer p{
+        color:  hsl(179, 100%, 13%);
+        display: inline-block;
+        background-color: white;
+        border-radius: 40px;
+        width: 144px;
+        height: 50px;
+        text-align: center;
+        padding:15px;
+        /* border: 1px solid black; */
+        
+    } 
+    .luxury footer p:hover{
+        color: hsl(0, 0%, 95%);
+        border: 2px solid  hsl(0, 0%, 95%);
+        background-color:  hsl(179, 100%, 13%);
+        border-radius: 40px;
+        width: 144px;
+        height: 50px;
+        text-align: center;
+        padding:15px;
+        /* border: 1px solid black; */
+        
+    } 
+
+}
